@@ -1,0 +1,39 @@
+.cardMovie{
+   padding: 40px 10px;
+   border-radius: 10px;
+   background-color: black;
+   color: white;
+   width: 400px;
+   height: 500px;
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+.cardMovie .title{
+   text-align: center;
+}
+
+.cardMovie .image_movie{
+   background-color: white;
+   width: auto;
+   max-height: 320px;
+   height: 100%;
+}
+
+.cardMovie .image_movie img{
+   max-width: 100%;
+}
+
+.cardMovie .icon{
+   cursor: pointer;
+   font-size: 30px;
+   color: white;
+}
+
+.container_description{
+   display: flex;
+   justify-content: space-between;
+}

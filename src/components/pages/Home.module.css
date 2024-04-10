@@ -1,0 +1,30 @@
+.content_home{
+   color: black;  
+}
+
+.container_lancamentos{
+   height: 500px;
+   background-color: black;
+   color: white;
+   font-size: 30px;
+}
+
+.container_lancamentos img{
+   width: 100%;
+   height: auto;
+}
+
+.carousel_container{
+   padding: 20px 40px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.carousel_container h1{
+   margin: 20px 0;
+}
+
+.carousel_container .generos{
+   margin: 40px 0;
+}
