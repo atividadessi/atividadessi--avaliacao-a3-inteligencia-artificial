@@ -1,0 +1,60 @@
+.cardMovie{
+   padding: 40px 10px;
+   border-radius: 10px;
+   background-color: gray;
+   color: black;
+   width: 400px;
+   height: 750px;
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+   flex-direction: column;
+}
+
+.cardMovie .title{
+   text-align: center;
+}
+
+.cardMovie .image_movie{
+   background-color: white;
+   width: auto;
+   max-height: 320px;
+   height: 100%;
+}
+
+.cardMovie .image_movie img{
+   max-width: 100%;
+}
+
+.cardMovie .icon{
+   cursor: pointer;
+   font-size: 30px;
+   height: 30px;
+   color: white;
+}
+
+.cardMovie .icon svg{
+   
+}
+
+.cardMovie .favorited{
+   color: red;
+}
+
+
+.container_details{
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.container_details button{
+   margin: auto;
+   width: 10vw;
+   padding: 10px;
+   background-color: rgb(218, 143, 4);
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   cursor: pointer;
+}
