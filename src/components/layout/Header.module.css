@@ -1,0 +1,27 @@
+.header{
+   display: flex;
+   height: 5vh;
+   justify-content: center;
+   background-color: black;
+   color: white;
+   padding: 10px;
+}
+
+.content_menu{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1800px;
+   width: 100%;
+
+}
+
+.menuList{
+   display: flex;
+   list-style: none;
+}
+
+.menuList li{
+   padding: 10px;
+   cursor: pointer;
+}

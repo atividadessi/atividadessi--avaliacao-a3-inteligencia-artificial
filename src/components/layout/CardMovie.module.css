@@ -1,0 +1,44 @@
+.cardMovie{
+   border-radius: 10px;
+   color: black;
+   width: 400px;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   flex: 1;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.cardMovie:hover{
+   transform: scale(0.9);
+   transition: 0.5s;
+}
+
+.cardMovie .title{
+   text-align: center;
+}
+
+.cardMovie .image_movie{
+   background-color: white;
+   width: auto;
+   max-height: 320px;
+   height: 100%;
+}
+
+.cardMovie .image_movie img{
+   max-width: 100%;
+}
+
+.cardMovie .icon{
+   display: block;
+   cursor: pointer;
+   font-size: 30px;
+   height: 30px;
+   color: white;
+}
+
+
+.cardMovie .favorited{
+   color: red;
+}

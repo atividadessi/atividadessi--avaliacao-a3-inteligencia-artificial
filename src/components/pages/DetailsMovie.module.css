@@ -1,0 +1,32 @@
+.datalhes{
+   position: relative;
+   width: 90vw;
+   margin: auto;
+   height: 90vh;
+}
+.title{
+   position: absolute;
+   top: 20%;
+   left: 5%;
+   width: 600px;
+   font-size: 3em;
+}
+
+.descricao{
+   position: absolute;
+   top: 40%;
+   left: 5%;
+   width: 600px;
+   font-size: 3em;
+   font-weight: bolder;
+}
+
+.fundo_poster {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.descricao{
+   font-size: 1.3em;
+}

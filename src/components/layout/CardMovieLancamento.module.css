@@ -1,0 +1,52 @@
+.container_lancamentos{
+   position: relative;
+   width: 95vw;
+   height: 90vh;
+   color: white;
+   margin: auto;
+   font-size: 30px;
+   background-color: black;
+   cursor: pointer;
+}
+
+.container_details {
+   background-color: black;
+   width: 100%;
+   opacity: 0.6;
+   padding: 20px;
+   position: absolute;
+   bottom: 0; 
+}
+
+.fundo_poster {
+   object-fit: cover;
+   width: 100%;
+   filter: brightness(50%);
+}
+
+.title{
+   position: absolute;
+   top: 20%;
+   left: 3%;
+   width: 600px;
+}
+
+.btn_detalhes{
+   position: absolute;
+   top: 40%;
+   left: 3%;
+   padding: 15px;
+   width: 300px;
+   font-size: 1em;
+   border-radius: 10px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.btn_detalhes:hover{
+   -webkit-transform: scale(1.1);
+   transition: 80ms;
+}
+
+
+
